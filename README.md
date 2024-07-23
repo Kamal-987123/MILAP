@@ -1,2 +1,2 @@
-# MILAP
-Humanize
+### MILAP Project
+Milap is a user-friendly matrimonial website designed to help people find their perfect match. Our goal is to create a modern and engaging experience for users, making the process of meeting new people enjoyable and effortless. The sign-up process is simple and visually appealing, with smooth animations and a clean UI that ensures everything is easy to find and use. With Milap, finding your life partner is not just efficient, but also a delightful journey.
