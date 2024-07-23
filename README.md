@@ -67,13 +67,4 @@ Have questions or feedback? Reach out to us!
 
 - E-Mail - [gurkamalin@gmail.com]
 
-Project Link: [https://github.com/your-username/milap](https://github.com/your-username/milap)
-
-## Acknowledgments
-
-- Thanks to [OpenAI](https://www.openai.com) for providing the language model used in this project.
-- Inspired by various matrimonial websites.
-
----
-
-Feel free to adjust this further to better fit your project's tone and details!
+Project Link: [(https://kamal-987123.github.io/MILAP/)]
