@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dedede;
+  padding: 20px;
+  background-image: url('Images/main.jpg');
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1.5rem;
+  margin-bottom: -0.8rem;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: color 1s ease, letter-spacing 1s ease;
+}
+
+.logo:hover {
+  color:#4CAF50;
+  letter-spacing: 14px;
+}
+
+.signup-form {
+  max-width: 400px;
+  background: #ffffff29;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.signup-form h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="number"],
+.signup-form input[type="password"],
+.signup-form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #ffffffa3;
+  color: black;
+}
+
+.signup-form input[type="submit"] {
+  width: 95%;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: border-radius 0.5s ease, border 1s ease,background-color 0.3s ease;
+}
+
+.signup-form input[type="submit"]:hover {
+  background-color: #f2f2f200;
+  border-radius: 50px;
+  border: 2px solid #4CAF50;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-bottom: 1rem;
+      font-size: 3rem;
+      letter-spacing: 5px;
+  }
+
+  .signup-form {
+      padding: 10px;
+  }
+
+  .signup-form h2 {
+      font-size: 1.5rem;
+  }
+
+  .signup-form input[type="text"],
+  .signup-form input[type="number"],
+  .signup-form input[type="password"],
+  .signup-form select,
+  .signup-form input[type="submit"] {
+      font-size: 1rem;
+      padding: 8px;
+  }
+}

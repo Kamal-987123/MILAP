@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveLagna</title>
+    <link rel="stylesheet" href="Choose.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You are interested in:</h1>
+        <div class="choice-container">
+            <div class="choice" id="male" onclick="chooseGender('male')">
+                <img src="Images/men.jpg" alt="Male">
+                <div class="label"></div>
+            </div>
+            <div class="choice" id="female" onclick="chooseGender('female')">
+                <img src="Images/female.jpg" alt="Female">
+                <div class="label"></div>
+            </div>
+        </div>
+        
+        <button id="submit-button" onclick="submitChoice()" style="display: none;"><p id="result"></p></button>
+        
+    </div>
+    <script src="Choose.js"></script>
+</body>
+</html>
